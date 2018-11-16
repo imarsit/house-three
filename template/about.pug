@@ -1,0 +1,68 @@
+extends layout
+
+block content
+	include lib/header
+	#sitecontent.teamc
+		#page_about.npagePage.Pageyemian
+			#banner
+				div(style='background-image:url(/templets/cloud_23/images/about.jpg);')
+			.content
+				.header
+					p.title
+						| 关于
+					p.subtitle
+						| ABOUT US
+				.fw.postbody
+					p(style='text-align: center;')
+						span(style='text-align: center;')
+							| 南宁火星人信息科技有限公司由留学人员杜聪回国创办，是一家致力于电子商务系统研发及提供相关配套增值服务的企业，公司在英国伦敦设有分部。公司将凭借总经理多年在英国为多家电子商务和网络媒体公司提供咨询服务的经验，能够为正在从事或即将设计电子商务的企业提供配套的增值性的咨询服务，其中包括电子商务整合方案策划，B2B,B2C整体解决方案，移动APP解决方案，网络媒体市场营销，网络品牌及形象推广，网络用户调研，数据采集和经济模型分析，项目预算与评估，财务分析和融资方案等
+					table(style='width: 1161px;')
+						tbody
+							tr.firstRow
+					p.ordinary-output.target-output(style='text-align: center;')
+					hr
+					p.ordinary-output.target-output(style='text-align: center;')
+					p.ordinary-output.target-output(style='text-align: center; padding-top:20px')
+						strong
+							span(style='font-size:24px;') 火星人只为更好的极速建站平台
+					p.ordinary-output.target-output(style='text-align: center;')
+					p
+					p(style='text-align: center; padding-top:20px')
+						| "火星人"——人是互联，社交的最基本元素，作为一家以人为本的互联网企业，团队是公司的核心竞争力，我们始终坚持用最前沿的技术助力企业转型互联网+，实现全球化，数据化和智能化
+					p
+					p
+					table(border='0', style='width: 1161px;', width='412')
+						tbody
+							tr.firstRow
+					table(style='width: 1161px;')
+						tbody
+							tr.firstRow
+					table(style='padding-top:20px')
+						tbody
+							tr.firstRow
+								td(style='word-break: break-all;', valign='top', width='30%')
+									p(style='text-align:center')
+										img(alt='undefined', src='/public/images/about/1468930119172.jpg',  title='undefined', vspace='0', width='360')
+									p
+										| 企业级高端一站式IT解决方案 ...
+								td(style='', width='5')
+								td(style='word-break: break-all;', valign='top', width='30%; text-align:center;')
+									p(style='text-align:center')
+										img(alt='undefined', src='/public/images/about/1468930213526.jpg', style='white-space: normal;', title='undefined', vspace='0', width='360')
+									p
+										| 一体化平台打造企业级数据化精准运营 ...
+								td(style='', width='5')
+								td(style='word-break: break-all;', valign='top', width='30%')
+									p(style='text-align:center')
+										img(alt='undefined', src='/public/images/about/1468930282730.jpg', style='white-space: normal;', title='undefined', vspace='0', width='360')
+									p
+										| 多行业解决方案 ...
+					p
+				#pages
+
+block script
+	script.
+		$().ready(function(){
+			$('.navitem a').removeClass('active')
+			$('#about').addClass('active')
+		})
